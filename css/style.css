@@ -1,4 +1,88 @@
+/* GENERAL STYLES */
+
+body {
+    background: url(images/background.jpg);
+}
 .container {
     margin: 0 auto;
-    max-width: 960px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+/* HEADER */
+
+header {
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.logo, .my_title {
+    padding-top: 20px;
+    float: left;
+    text-align: center;
+}
+.logo {
+    width: 20%;
+}
+.my_title {
+    width: 80%;
+}
+.my_title h1 {
+    font-family: Impact, fantasy;
+    font-weight: normal;
+    font-size: 58px;
+    color: rgb(150, 0, 0);
+}
+
+/* NAVIGATION */
+
+nav {
+    background-color: rgba(100, 100, 100, 0.7);
+    color: white;
+    padding-bottom: 17px;
+}
+a {
+	text-decoration: none;
+}
+.links {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.links li {
+    float: left; 
+    width: 280px;
+    text-align: center;
+}
+.links a {
+    padding: 14px 0;
+	display: block;
+	color: white;
+	text-align: center;
+}
+nav ul li {
+    list-style-type: none;
+}
+.links li a:hover {
+    padding: 14px 0;
+    background-color: #76c38f;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+/* MAIN PART */
+
+main {
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5;
+}
+.main_text {
+    width: 80%;
+}
+.advertising {
+    width: 20%;
+}
+.advertising, .main_text {
+    float: left;
+    font-size: 18px;
 }
